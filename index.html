@@ -1,3 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="color-scheme" content="dark">
+	<title>System Directory</title>
+
+	<!-- --------------------------------------------------------------------
+	     NEOCITIES SETUP
+	     This code was written for ToyHouse, which quietly loads Bootstrap 4,
+	     jQuery and Font Awesome for you. Neocities loads nothing, so the three
+	     <link>/<script> tags below are what actually make the layout, the tabs,
+	     the collapse popups and the fa-* icons work.
+	     Nothing below the "START CODE" comment was rewritten - it is your code.
+	     -------------------------------------------------------------------- -->
+
+	<!-- Bootstrap 4.6.2: grid (row/col-md-*), btn, badge, tab-pane, collapse, fixed-bottom -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<!-- Font Awesome 6.5.2: the fa-solid / fa-brands icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" integrity="sha384-PPIZEGYM1v8zp5Py7UjFb79S58UeqCL9pYVnVPURKEqvioPROaVAJKKLzvH2rDnI" crossorigin="anonymous">
+
+	<style>
+		/* ToyHouse supplies the dark page background; a standalone page has to. */
+		html, body { background-color:#0e0b0e; }
+		body { margin:0; padding:0; }
+		/* OPTIONAL: ToyHouse renders this code inside a narrow column. If it looks
+		   stretched on a wide monitor, uncomment the next line to centre it. */
+		/* #system-directory { max-width:1100px; margin:0 auto; } */
+	</style>
+</head>
+<body>
 <!--
 
 Important Note: If you discriminate against any other system/plural user based on their origin, members, source, diagnosis status, or how they choose to express their identity, I do not consent to you using this code and I would prefer that you not interact with me at all.
@@ -126,7 +159,7 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 
 -->
 <!-- START CODE -->
-<div class="no-gutters text-center" style="font-family:trebuchet ms;background-color:#0e0b0e;color:#f3e0f4">
+<div id="system-directory" class="no-gutters text-center" style="font-family:trebuchet ms;background-color:#0e0b0e;color:#f3e0f4">
 	<!-- SYSTEM NAME HEADER -->
 	<div class="p-2" style="background-color:#2E222F">
 		<span style="font-variant:small-caps;color:#a088a1">meet the</span>
@@ -198,7 +231,7 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 	<!-- MAIN TAB CONTENT -->
 	<div class="tab-content">
 		<!-- MAIN TAB 1: OVERALL INFO -->
-		<div class="tab-pane fade" id="main1">
+		<div class="tab-pane fade active show" id="main1">
 			<!-- DIVIDER -->
 			<div class="mb-2" style="border:1px solid #2E222F"></div>
 			<!-- BUTTON SET 2: OVERALL -->
@@ -933,10 +966,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 											<!-- TAGS -->
 											<!-- DEV NOTE: The tag popup definition system here is pretty easy, if you want to use the "host" tag just make the href "#popup-host". The popups themselves are at the very bottom of the code, and I'll note the corresponding ID for each of them in a list down there. Try to only use the most important tags, there's room for more inside, but it will expand if needed. -->
 											<div style="font-variant:small-caps">
-												<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-												<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-												<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-												<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+												<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+												<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+												<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+												<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 											</div>
 											<!-- QUICK INFO -->
 											<div class="row no-gutters" style="font-variant:small-caps;color:#a088a1">
@@ -1131,10 +1164,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 								<!-- KEY: BADGES -->
 								<div class="p-2">
 									<div class="mb-1" style="display:flex;justify-content:space-evenly;font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 									</div>
 									<i>These badges provide a quick explanation of the alter's roles in the system are. The Badges Legend on this page explains what each badge means, but you can also simply click or tap on the badge for a definition.</i>
 								</div>
@@ -2787,10 +2820,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 										<div class="col-1" style="margin:auto"> ⬛ </div>
 									</div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 									</div>
 								</div>
 							</div>
@@ -2813,10 +2846,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 										<div class="col-1" style="margin:auto"> ⬛ </div>
 									</div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 									</div>
 								</div>
 							</div>
@@ -2839,10 +2872,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 										<div class="col-1" style="margin:auto"> ⬛ </div>
 									</div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 									</div>
 								</div>
 							</div>
@@ -2865,10 +2898,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 										<div class="col-1" style="margin:auto"> ⬛ </div>
 									</div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 									</div>
 								</div>
 							</div>
@@ -2891,10 +2924,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 										<div class="col-1" style="margin:auto"> ⬛ </div>
 									</div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+										<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 									</div>
 								</div>
 							</div>
@@ -2909,10 +2942,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 							</div>
 							<div style="background-color:#2E222F">
 								<div style="font-variant:small-caps">
-									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 								</div>
 							</div>
 						</div>
@@ -2923,10 +2956,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 							</div>
 							<div style="background-color:#2E222F">
 								<div style="font-variant:small-caps">
-									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 								</div>
 							</div>
 						</div>
@@ -2937,10 +2970,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 							</div>
 							<div style="background-color:#2E222F">
 								<div style="font-variant:small-caps">
-									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 								</div>
 							</div>
 						</div>
@@ -2951,10 +2984,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 							</div>
 							<div style="background-color:#2E222F">
 								<div style="font-variant:small-caps">
-									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 								</div>
 							</div>
 						</div>
@@ -2965,10 +2998,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 							</div>
 							<div style="background-color:#2E222F">
 								<div style="font-variant:small-caps">
-									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 								</div>
 							</div>
 						</div>
@@ -2979,10 +3012,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 							</div>
 							<div style="background-color:#2E222F">
 								<div style="font-variant:small-caps">
-									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 								</div>
 							</div>
 						</div>
@@ -2993,10 +3026,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 							</div>
 							<div style="background-color:#2E222F">
 								<div style="font-variant:small-caps">
-									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role tag</a>
-									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin tag</a>
-									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive tag</a>
-									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-tag">group tag</a>
+									<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role tag</a>
+									<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin tag</a>
+									<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive tag</a>
+									<a class="badge collapsed" style="color:#261A26;background-color:#f3e0f4" data-toggle="collapse" href="#popup-group1">group tag</a>
 								</div>
 							</div>
 						</div>
@@ -3128,9 +3161,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3147,9 +3180,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3166,9 +3199,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3185,9 +3218,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3204,9 +3237,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3266,9 +3299,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3285,9 +3318,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3304,9 +3337,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3323,9 +3356,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3342,9 +3375,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3405,9 +3438,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3424,9 +3457,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3443,9 +3476,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3462,9 +3495,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3481,9 +3514,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3543,9 +3576,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3562,9 +3595,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3581,9 +3614,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3600,9 +3633,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3619,9 +3652,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3681,9 +3714,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3700,9 +3733,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3719,9 +3752,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3738,9 +3771,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3757,9 +3790,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3819,9 +3852,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3838,9 +3871,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3857,9 +3890,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3876,9 +3909,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -3895,9 +3928,9 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 									</div>
 									<div style="font-variant:small-caps"> pronouns </div>
 									<div class="p-1" style="font-variant:small-caps">
-										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-tag">role</a>
-										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-tag">origin</a>
-										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-tag">descriptive</a>
+										<a class="badge collapsed" style="background-color:#7735A1" data-toggle="collapse" href="#popup-host">role</a>
+										<a class="badge collapsed" style="background-color:#261A26;color:#f3e0f4" data-toggle="collapse" href="#popup-fictive">origin</a>
+										<a class="badge collapsed" style="background-color:#a088a1" data-toggle="collapse" href="#popup-little">descriptive</a>
 									</div>
 								</div>
 							</div>
@@ -6181,4 +6214,10 @@ popup-group1 popup-group2 popup-group3 popup-group4 popup-group5 popup-group6 po
 		</div>
 	</div>
 </div>
-    
+
+<!-- jQuery first, then Bootstrap (the bundle already contains Popper).
+     These power data-toggle="tab" and data-toggle="collapse". -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
